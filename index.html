@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Course Selector</title>
+    <link rel = "stylesheet" href="styles.css">
+</head>
+<body>
+<div class = "option-container">
+    <h2>Welcome! Select Your Course</h2>
+    <label for ="user">Enter your username:</label>
+    <input type ="text" id = "user" placeholder= "Your username"/>
+    <label for="course">Choose your program:</label>
+    <select id="course">
+    <option value="BSCPE">Bachelor of Science in Computer Enginerring</option>
+    <option value="BSCS">Bachelor of Science in Computer Science</option>
+    <option value="BSIT">Bachelor of Science in Information Technology</option>
+    <option value="BMMA">Bachelor of Multimedia Arts</option>
+    <option value="BSBA">Bachelor of Science in Business Administration</option>
+    <option value="BSTM">Bachelor of Science in Tourism Management</option>
+    <option value="BSEcE">Bachelor of Science in Electronics and Communications Engineering</option>
+    <option value="BSEE">Bachelor of Science in Electrical Engineering</option>
+    <option value="BSCE">Bachelor of Science in Civil Engineering</option>
+    </select>
+    <button class = "button-class" onclick = submit()>Submit</button>
+    <button class ="button-class" onclick = view()>View Data</button>
+    <button class ="button-class" onclick = clearAll()>Reset Data</button>
+</div>
+
+    <script src ="index.js"></script>
+
+    
+</body>
+</html>
+
